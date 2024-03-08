@@ -108,6 +108,9 @@ pagination:
     {% else %}
       {% assign postlist = site.posts %}
     {% endif %}
+      <li>
+        <p>Coming soon!</p>
+      </li>
 
     {% for post in postlist %}
 
